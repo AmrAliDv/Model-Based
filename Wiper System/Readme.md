@@ -1,4 +1,4 @@
-<img height="400" width="1000" src="https://github.com/user-attachments/assets/acd37cb4-7a9d-4200-88f2-b36785f813a2"></img>
+<img height="600" width="1200" src="https://github.com/user-attachments/assets/acd37cb4-7a9d-4200-88f2-b36785f813a2"></img>
 
 ### Project Overview
 This project implements a wiper control system using MATLAB Simulink and generates C code via Embedded Coder. The system adjusts the wiper motor's duty cycle based on various inputs to ensure optimal performance under different conditions.
