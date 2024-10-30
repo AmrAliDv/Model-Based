@@ -30,6 +30,7 @@ In automatic mode, the wiper speed can be adjusted to one of the following value
 - 0.6
 - 0.65
 - 0.7
+
 The speed adjustment is determined by the sensor reading, ensuring optimal responsiveness to changing conditions.
 
 ### Implementation
