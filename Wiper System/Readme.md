@@ -1,4 +1,5 @@
-<img height="400" width="1000" src="https://github.com/user-attachments/assets/b7de700b-a496-4deb-a468-1b8f2aef67fb"></img>
+<img height="400" width="1000" src="https://github.com/user-attachments/assets/acd37cb4-7a9d-4200-88f2-b36785f813a2"></img>
+
 ### Project Overview
 This project implements a wiper control system using MATLAB Simulink and generates C code via Embedded Coder. The system adjusts the wiper motor's duty cycle based on various inputs to ensure optimal performance under different conditions.
 
@@ -7,7 +8,7 @@ The wiper system accepts the following inputs:
 Rain Sensor Signal: A sensor reading indicating the presence of rain.
 Speed Request: A user-defined input specifying the desired speed of the wipers.
 Wiper Mode: The operational mode of the wiper system, which can be set to one of the following:
--Off
+- Off
 - Low Speed
 - High Speed
 - Automatic
@@ -21,7 +22,6 @@ The wiper system supports multiple modes:
 
 ### Automatic Speed Control
 In automatic mode, the wiper speed can be adjusted to one of the following values based on the rain sensor reading:
-
 - 0
 - 0.4
 - 0.45
