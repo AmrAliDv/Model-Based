@@ -1,6 +1,7 @@
 <div align="center">
 <img src="https://github.com/user-attachments/assets/442f0478-ea67-4a02-bfaa-66b1123c7bee" width="800px" height="400px "></img>
 </div>
+
 ### overview
 This project utilizes MATLAB's Battery Designer application to model and simulate a battery pack with a 3P4S configuration.
 The system implements thermal management through convection to ambient, and it estimates the State of Charge (SOC) using Coulomb Counting. 
@@ -15,6 +16,7 @@ Additionally, the charging current is dynamically adjusted based on temperature 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/f4111b0a-5946-4bf5-849d-2f4f51ef6c8b" width="800px" height="400px "></img>
 </div>
+
 ### Charging Process and SOC Monitoring
 
 The figure below shows the scope results from the simulation, where we monitor the charging process of the battery pack. The charging process is governed by the State of Charge (SOC), which starts at 0.3 (30%) and ends at 0.9 (90%).
