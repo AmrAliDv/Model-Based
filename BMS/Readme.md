@@ -10,5 +10,11 @@ In this project, I developed a Battery Management System (BMS) to efficiently ma
 <div center>
   <img src="https://github.com/user-attachments/assets/f5602a6f-1c2a-41d7-886b-896356cb9db2"></img>
 </div>
+1. Building the 3P4S Battery Pack:
+- This configuration provides a total voltage of 16.8V.
+- Note: For the purpose of a faster simulation, the battery pack is adjusted to 1.5Ah capacity and a 3.5V nominal voltage per cell with a 0.2 state of charge.
 
+<div center>
+  <img src="https://github.com/user-attachments/assets/0dd5c080-69eb-43f6-a487-dff4b362e27a"></img>
+</div>
 
