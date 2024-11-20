@@ -5,7 +5,6 @@
 ### Battery Management System
 
 ### Project Overview
-
 In this project, I developed a Battery Management System (BMS) to efficiently manage a battery pack, utilizing MATLAB's Battery Builder application for designing the battery model. The BMS system includes a mode selection mechanism based on the State of Charge (SOC) value, which determines whether the battery is in charging or discharging mode using a Stateflow chart. The charging process incorporates Constant Current (CC) and Constant Voltage (CV) method. Additionally, the BMS ensures the safe operation of the battery by managing thermal conditions, monitoring the temperature, and adjusting current levels to prevent overheating during discharge.
 
 <div center>
