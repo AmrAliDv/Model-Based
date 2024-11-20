@@ -32,10 +32,10 @@ The operating mode is selected based on the State of Charge (SOC) value.
 - Temperature control is handled by managing the convective heat transfer between the battery and the surrounding ambient air. The system ensures the battery operates within safe temperature limits by adjusting this heat exchange.
 
 5. Temperature Monitoring During Discharge:
-During discharge, the battery temperature is constantly monitored. If the temperature rises above a preset threshold, the system limits the current draw to prevent overheating.
+- During discharge, the battery temperature is constantly monitored. If the temperature rises above a preset threshold, the system limits the current draw to prevent overheating.
 
 6. Charging Control Using CC/CV Method:
-In charging mode, the Constant Current/Constant Voltage (CC/CV) charging method is used. Initially, the battery is charged at a constant current until it reaches the preset voltage level. Once this voltage is reached, the system switches to constant voltage mode, gradually reducing the charging current to maintain the voltage.
+- In charging mode, the Constant Current/Constant Voltage (CC/CV) charging method is used. Initially, the battery is charged at a constant current until it reaches the preset voltage level. Once this voltage is reached, the system switches to constant voltage mode, gradually reducing the charging current to maintain the voltage.
 
 
 
