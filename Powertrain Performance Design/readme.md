@@ -15,7 +15,7 @@
 | Top Speed                            | 225 km/h                 |
 | Maximum Frontal Area                 | 2.22 m<sup>2</sup>       |
 
-***The goal of the powertrain design is to achieve key performance requirements such as range, acceleration time and top speed***
+***The goal of the powertrain design is to achieve key performance requirements, including a top speed of 225 km/h, acceleration from 0 to 100 km/h in 6.1 seconds, and a driving range of 491 km.***
 
 #### Design Process Overview
 1. Calculation of Vehicle Parameters.
@@ -41,7 +41,7 @@
 
 ***By applying a driving cycle to the vehicle in this project, the WLTC cycle we can calculate the average energy consumption in Wh/km. Using this value, along with the performance requirement of a 491 km range, we can determine the required battery capacity***
 
-### I used MATLAB Simulink to model the powertrain components in order to meet performance requirements such as maximum speed, acceleration time, and vehicle range.
+#### I used MATLAB Simulink to model the powertrain components to meet performance targets, including a top speed of 225 km/h, 0–100 km/h acceleration in 6.1 seconds, and a driving range of 491 km.
 
 ## Design Overview
 
