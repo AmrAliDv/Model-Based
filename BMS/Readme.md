@@ -1,6 +1,6 @@
 <p align="center"><img src="images/BMS.png" width="1400" height="500" /></p>
 
-# This project involves the design and implementation of a Battery Management System (BMS) using MATLAB.
+# This project involves the design of a Battery Management System (BMS) using MATLAB.
 ### This Project Includes:
 - Cell Modeling & Parameter Estimation.
 - Cell Balancing using Two-Stage Passive Resistor Method.
@@ -21,19 +21,18 @@
 <p align="center"><img src="images/HPPC.png" width="500" height="500" /></p>
 
 1. Experimental Testing (e.g., HPPC Test) :
-- One common method is to expose the cell to a test such as the Hybrid Pulse Power Characterization (HPPC) test. This involves applying discharge pulses at specific intervals and recording the cell voltage during the test.
+- One common approach involves exposing the battery cell to tests such as the Hybrid Pulse Power Characterization (HPPC) test. This method entails applying discharge pulses at specific intervals and recording the cell voltage during the process. The collected data can then be analyzed using mathematical equations to determine various battery parameters..
 ---
 
 <p align="center"><img src="images/parameterEstimator1.png" width="1400" height="500" /></p>
 
-
-2. MATLAB Parameter Estimator Tool :
 ***Another approach is using MATLAB's Parameter Estimator Tool, which works as follows:***
-1. Discharge pulses are applied to the real battery cell, and the resulting voltage is recorded.
-2. An ECM is constructed in MATLAB Simulink using initial parameter guesses. 
-3. The same current profile is applied to the ECM model.
-4. Both the real and simulated voltages, along with the current waveform, are fed into the estimator tool.
-5. The tool adjusts the model's parameter values iteratively to make the simulated output match the measured data as closely as possible.
+2. MATLAB Parameter Estimator Tool :
+    1. Discharge pulses are applied to the real battery cell, and the resulting voltage is recorded.
+    2. An ECM is constructed in MATLAB Simulink using initial parameter guesses. 
+    3. The same current profile is applied to the ECM model.
+    4. Both the real and simulated voltages, along with the current waveform, are fed into the estimator tool.
+    5. The tool adjusts the model's parameter values iteratively to make the simulated output match the measured data as closely as possible.
 
 <p align="center"><img src="images/parameterEstimator2.png" width="1400" height="500" /></p>
 
