@@ -45,7 +45,7 @@
 To build an accurate and comprehensive battery model, we must run the same parameter estimation tests (e.g., HPPC) at different temperatures and SoC levels. This enables us to create a parameter lookup table that reflects the real behavior of the cell under all typical operating conditions***
 
 2. Cell Balancing :
-Due to differences in cell chemistries, manufacturing tolerances, and aging rates, the electrical characteristics of individual cells — such as:
+Due to differences in cell chemistries, manufacturing tolerances, and aging rates, the electrical characteristics of individual cells such as:
 - Internal resistance
 - Charge/discharge rates
 - Self-discharge behavior
@@ -95,25 +95,21 @@ Active balancing uses DC-DC converters or capacitor circuits to redistribute ene
 ### Common Techniques for SoC Estimation
 1. Coulomb Counting :  
 A simple method that integrates current over time to track charge in/out.  
-- Easy to implement  
-- Not very accurate, it accumulates error over time due to sensor drift and offset.
+- Easy to implement, Not very accurate, it accumulates error over time due to sensor drift and offset.
 
 2. Open Circuit Voltage (OCV) Method :
 Estimates SOC by using a known SoC–OCV relationship (lookup table or curve fitting).  
-- Accurate under steady-state conditions.  
-- Requires long rest periods (no current flow) to allow the battery to stabilize.
+- Accurate under steady-state conditions, Requires long rest periods (no current flow) to allow the battery to stabilize.
 
 3. Least Squares Methods 
 Uses curve-fitting or optimization techniques to estimate SoC from measured data.  
-- Simple and fast.  
-- Less accurate, especially in dynamic conditions.
+- Simple and fast, Less accurate, especially in dynamic conditions.
 
 4. Kalman Filters (EKF/UKF) :  
 A model-based estimation technique that combines prediction and correction:  
 - Prediction: Uses a mathematical model to estimate the next SoC based on input current and previous state.  
 - Correction: Adjusts the estimate using real-time sensor measurements (e.g., voltage).  
-- High accuracy.  
-- More complex to implement.
+- High accuracy, More complex to implement.
 
 <p align="center"><img src="images/EKF_SOC.png" width="1400" height="500" /></p>
 
@@ -144,19 +140,13 @@ A model-based estimation technique that combines prediction and correction:
 <p align="center"><b><i>The scope displays the estimated capacity obtained from the EKF algorithm, the actual capacity, and the estimated State of Health (SOH).</i></b></p>
 
 
-
-
-
-
-
 5. Thermal Management using Convection Heat Transfer :
 - To maximize the performance and extend the lifespan of battery cells, it is essential to operate them within their safe operating area. This includes maintaining an appropriate operating temperature. High temperatures can lead to thermal runaway, while low temperatures increase internal resistance, resulting in higher energy losses and increased self-discharge.
 - There are several thermal management methods to regulate battery temperature, including convection, conduction, and radiation.
 
 
 6. Constant Current / Constant Voltage (CC/CV) Charging :
-- Among various charging techniques for lithium-ion cells, the Constant Current–Constant Voltage (CC-CV) method is the most widely adopted due to its balance of charging speed, efficiency, and battery longevity..
-![alt text](image.png)
+- Among various charging techniques for lithium-ion cells, the Constant Current–Constant Voltage (CC-CV) method is the most widely adopted due to its balance of charging speed, efficiency, and battery longevity.
 
-<p align="center"><img src="images/cc_Cv.png" width="1400" height="500" /></p>
+<p align="center"><img src="images/cc_cv.png" width="1400" height="500" /></p>
 <p align="center"><b><i>CC/CV Charging.</i></b></p>
