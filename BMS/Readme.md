@@ -27,6 +27,7 @@
 <p align="center"><img src="images/parameterEstimator1.png" width="1400" height="500" /></p>
 
 ***Another approach is using MATLAB's Parameter Estimator Tool, which works as follows:***
+
 2. MATLAB Parameter Estimator Tool :
     1. Discharge pulses are applied to the real battery cell, and the resulting voltage is recorded.
     2. An ECM is constructed in MATLAB Simulink using initial parameter guesses. 
