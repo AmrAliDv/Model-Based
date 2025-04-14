@@ -21,7 +21,7 @@
 <p align="center"><img src="images/HPPC.png" width="500" height="500" /></p>
 
 1. Experimental Testing (e.g., HPPC Test) :
-- One common approach involves exposing the battery cell to tests such as the Hybrid Pulse Power Characterization (HPPC) test. This method entails applying discharge pulses at specific intervals and recording the cell voltage during the process. The collected data can then be analyzed using mathematical equations to determine various battery parameters..
+- One common approach involves exposing the battery cell to tests such as the Hybrid Pulse Power Characterization (HPPC) test. This method entails applying discharge pulses at specific intervals and recording the cell voltage during the process. The collected data can then be analyzed using mathematical equations to determine various battery parameters.
 ---
 
 <p align="center"><img src="images/parameterEstimator1.png" width="1400" height="500" /></p>
