@@ -1,0 +1,64 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   6 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "Threshold"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "Threshold"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "S"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "S"\
+      SrcLocation  ""\
+      Dimensions   [1,3]\
+    }\
+    ChartData {\
+      Name         "sfEvent"\
+      Description  "ActiveChartEvent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_active_c1_Enhanced_BMS"\
+      Description  "StateIsActive"\
+      SFName       "is_active_c1_Enhanced_BMS"\
+      Path         "is_active_c1_Enhanced_BMS"\
+      SrcLocation  ""\
+      IsTestPoint  1\
+    }\
+    ChartData {\
+      Name         "is_c1_Enhanced_BMS"\
+      Description  "StateActiveChild"\
+      SFName       "is_c1_Enhanced_BMS"\
+      Path         "is_c1_Enhanced_BMS"\
+      SrcLocation  ""\
+      IsTestPoint  1\
+    }\
+    ChartData {\
+      Name         "is_Balancing"\
+      Description  "StateActiveChild"\
+      SFName       "is_Balancing"\
+      Path         "Balancing.is_Balancing"\
+      SrcLocation  ""\
+      IsTestPoint  1\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

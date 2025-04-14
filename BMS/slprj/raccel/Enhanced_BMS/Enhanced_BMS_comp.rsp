@@ -1,0 +1,22 @@
+﻿-I"D:\study\First Part\Enhanced_BMS"
+-I"D:\study\First Part\Enhanced_BMS\slprj\raccel\Enhanced_BMS"
+-ID:\MATLAB\rtw\c\src\rapid
+-ID:\MATLAB\rtw\c\raccel
+-ID:\MATLAB\rtw\c\src\ext_mode\common
+-ID:\MATLAB\toolbox\coder\rtiostream\src
+-ID:\MATLAB\extern\include
+-ID:\MATLAB\simulink\include
+-ID:\MATLAB\rtw\c\src
+-ID:\MATLAB\toolbox\coder\rtiostream\src\rtiostreamtcpip
+-ID:\MATLAB\toolbox\coder\rtiostream\src\utils
+-ID:\MATLAB\extern\physmod\win64\ex\include
+-ID:\MATLAB\extern\physmod\win64\lang\include
+-ID:\MATLAB\extern\physmod\win64\mc\include
+-ID:\MATLAB\extern\physmod\win64\pd\include
+-ID:\MATLAB\extern\physmod\win64\pm\include
+-ID:\MATLAB\extern\physmod\win64\pm_log\include
+-ID:\MATLAB\extern\physmod\win64\ssc_core\include
+-ID:\MATLAB\extern\physmod\win64\ssc_dae\include
+-ID:\MATLAB\extern\physmod\win64\ssc_ds\include
+-ID:\MATLAB\extern\physmod\win64\ssc_sli\include
+-ID:\MATLAB\extern\physmod\win64\ssc_st\include

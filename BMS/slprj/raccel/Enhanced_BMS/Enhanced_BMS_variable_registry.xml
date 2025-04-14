@@ -1,0 +1,2052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/slsa_mm_parameter_tuning/R2021b">
+  <slsa.mm.parametertuning.VariableRegistry type="slsa.mm.parametertuning.VariableRegistry" uuid="320f571c-cbf5-4150-a90b-b9b6e2345e2c">
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="1fe31b9d-7986-4661-b0ce-6a2f4a706fb8">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Parallel P Gain/Internal Parameters/Proportional Gain</blockPath>
+      <parameterName>OutMax</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="2092a20f-410f-4246-827d-0a53dd27a8b5"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="1f0db738-f7cb-4a5d-8860-9aaffe836386">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/I Gain/Internal Parameters/Integral Gain</blockPath>
+      <parameterName>OutMin</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4caf405c-2f42-4c4b-b0a6-f63b2b9d1218"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="9f3abcbf-2160-4250-9ef6-ce69888e6ee7">
+      <blockPath>Enhanced_BMS/Battery/SOC Estimator/Correction/cell2/Measurement Noise/White Noise</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="f1dc18cc-944d-48de-b34c-39c117cf5b58"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="ffc67bd9-7d8e-41d5-9b5a-7cea6f888bf6">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/I Gain/Internal Parameters/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="ff40c0d3-8d92-49c8-987e-6d2730ce30cc">
+      <blockPath>Enhanced_BMS/Battery/SOC Estimator/Correction/cell1/Measurement Noise/Output</blockPath>
+      <parameterName>Gain</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="71aa4891-cb39-4a2a-ba15-3321693cf178"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="3933b18c-a1dc-4f88-bb1c-64039985d33c">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="fd44a6d9-df9a-4797-83a6-429b80626d57">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Parallel P Gain/Internal Parameters/Proportional Gain</blockPath>
+      <parameterName>ParamMin</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="fe22bea2-cce4-42c3-a365-05bac7455bff"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="fdc623cb-ff2a-4838-9ff5-1bd7881c48b2">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/u</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="85a0d8a7-881f-44d0-a448-cf81ee9e0244">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Filter/Disabled/Reset</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="0556ae13-f198-4e88-8d6f-520d6cfa1b11">
+      <blockPath>Enhanced_BMS/Battery/SOC Estimator/Correction/cell2/Measurement Noise/Output</blockPath>
+      <parameterName>Gain</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="9d8c8df8-b798-4585-83a3-42db88dff496"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="d29f1f19-b930-4023-b878-5f5a62d0be50">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="d0f5daa8-d934-4ee6-8755-cc8098535505">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/External Derivative/ydot</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="10c72c8a-b0ba-4792-a785-7c9e2a862d9e">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/External Derivative/err</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="500bd486-2b9c-4e50-9ef6-e23a94ac445b">
+      <blockPath>Enhanced_BMS/Battery/SOC Estimator/Correction/cell3/Measurement Noise/Output</blockPath>
+      <parameterName>Gain</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4dec2b38-9d1a-4d6f-a7a6-c906615e74b7"/>
+      <valueAttributes type="slsa.mm.parametertuning.ValueAttributes" uuid="e0427c93-8d00-429f-bfc3-9334d373de21">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="242aaacf-bd99-4c42-ae01-4b6305af7543">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/D Gain/Disabled/D Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="e44408ec-52b2-487e-bef7-7daa118c9146">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Anti-windup/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="64f0ec47-0e5e-4886-af29-69d308d02864">
+      <blockPath>Enhanced_BMS/Battery/SOC Estimator/Correction/cell1/Measurement Noise/White Noise</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="b4da72c4-414c-4cf0-8c5d-d91fa335f60a"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="ee8245a4-a056-4651-8efc-7e41c49d4936">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/N Gain/U</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="ee72f198-751a-4985-bce3-9c14c5be8fe0">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/I Gain/Internal Parameters/Signal Specification</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="eec50b6b-1e5e-4a2b-8a2d-6fff789f9ae3">
+      <blockPath>Enhanced_BMS/Battery/SOC Estimator/Correction/cell3/Measurement Noise/White Noise</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="721a84bd-6fad-428f-b9ef-48fe02062635"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="ababd41d-5e6f-4ae3-bc57-df4207223299">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/I Gain/err</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="eb0ca488-32fd-4a13-88f9-810ceff12513">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Filter ICs/Disabled/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="ab565383-605e-45f4-9b4e-1b55f0b99c48">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/External Derivative/Disabled/Signal Specification</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="6b9c1b3e-8c4d-4ec8-b6ad-1e33a1e54e32">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Sum Fdbk/fromState</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="6b425131-bbe3-43a2-b5ea-efc6234b5d31">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Anti-windup/preSat</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="9e9a8faa-4bdc-4f2b-a6cd-f48c6a6ccf4d">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Sum Fdbk/fromD</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="9eaa5385-3cf3-45b0-9105-d276c1245af5">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Anti-windup/postSat</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="ad35c197-7b5b-44f3-8b5b-5f98f43db6cb">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Anti-windup/P</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="cc3fe64e-9312-4f14-a5eb-7ef01aa090e1">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Anti-windup/preInt</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="c061df21-b220-491e-bb6e-8678da6c11e9">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/External Derivative/Disabled/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="c0048312-4e69-472b-9f48-5c0afc1e5248">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/N Copy/Disabled wSignal Specification/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="c0160b19-b666-418e-9940-c34c86a9426d">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Anti-windup/Upper Limit</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="cd3c53b1-dd8f-427d-bf10-47896aaf0b4e">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/N Gain/N Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="cd5c390e-f206-4dd2-9357-9c8f0691ece9">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/D Gain/err</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="0d59d848-5b03-421d-91ae-dd525a340a6b">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Anti-windup/Lower Limit</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="fc508a61-0f78-4297-bec0-046857c0ae36">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/I Gain/Internal Parameters/err</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="bc2c3b50-c994-4ebd-95e5-d6b657004850">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Anti-windup/Passthrough/preInt</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="e6061105-b52b-48a5-bfff-4a949b3aedbb">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Anti-windup/Passthrough/preSat</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="a031ba54-5f3f-46fe-968e-f841715051ad">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/postSat Signal/Forward_Path/forward</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="a0f5c539-ac99-4fa5-91b4-afe0a808f140">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Saturation Fdbk/Lower Limit</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="a0dd0637-96af-40e2-852d-d7e2c9873b7b">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Filter/Nout</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="60483818-00ee-4ce1-9cf2-d3471ae190e3">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Filter/Reset</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="20981cd3-390b-4893-b716-4407cadbbca8">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Sum/Sum_PI/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="20ec0036-f4dc-4df9-8ef9-33753f782725">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Anti-windup/Passthrough/postSat</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="2702f04a-3ba3-47a8-80de-714b0bb3d41f">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tsamp - Integral/TsSignalSpecification/U</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="27b2e53b-ffe6-43a8-b7b4-f6a0223669da">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/External Derivative/Disabled/err</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="27b73d47-aab7-4c6d-8336-85db27c55b8a">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Anti-windup/Passthrough/P</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="f7c60268-5688-484a-b2dd-bd35c71f8df0">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Sum Fdbk/Disabled/fromState</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="f71ee4aa-09f0-497b-9d20-e03553874f1b">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Filter/Disabled/Signal Specification4</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="375234d1-c5ab-4626-82ff-ef5cbd96904c">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Ideal P Gain Fdbk/P Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="3708001d-ca69-4776-b58e-f794838467f7">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Anti-windup/Passthrough/Signal Specification2</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="7967ce31-9a58-4a94-ba64-b8aac352e629">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Filter/Disabled/Signal Specification3</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="f9d11b04-32a7-4c3d-b96e-888d2e76429c">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Filter/D0in</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="392801b6-175e-4ac9-ac39-3471c921e920">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Anti-windup/Passthrough/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="efb6c0b5-38e6-47f5-ab2d-9b1f24c65c24">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Filter/Ts</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="af90b962-64c8-4ca4-979c-bbad3ffcffef">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/D Gain/D Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="f51bea9b-581f-4b65-a6ec-7b23a906a2b9">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Filter/Disabled/Ts</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="b5b4ed95-fef6-49ee-a631-2c973b0944f1">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/D Gain/Disabled/Signal Specification</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="7e2acea0-3751-421d-91f5-8411fd627a46">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/D Gain/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="06247b50-a2b0-4bfb-a663-4ccdabc05ebc">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/External Derivative/Disabled/ydot</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="b8516b26-35d3-4e57-91a1-b1d9bcbe19a8">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/External Derivative/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="3277de3b-8f2f-471f-99ee-13070717f1b8">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Filter/Disabled/Nout</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="b2c22152-8801-416e-9cf3-1c05ba81b1f9">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Filter/U</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="234c8566-0a09-4524-b141-b881c10eaf67">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Filter ICs/D0</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="a3250a7e-8b09-48d4-acc0-aad361ef3454">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Filter/N</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="1c8b2623-014b-4108-98a4-e50eb87781a9">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/postSat Signal/feedback</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="1c7dbd99-f929-48fd-84e4-a08c04d7649c">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Filter/Disabled/Signal Specification2</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="dced3433-6589-4438-9000-c752d345207a">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Parallel P Gain/err</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="dcabc402-44cc-44b9-ba47-7221b40919bd">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Filter/Disabled/U</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="d6bb258c-e588-4cac-85dd-32793f8476d0">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Filter/Disabled/N</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="e8958e1a-b5ac-4873-a5b8-ad76ab452c01">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Filter/Disabled/D0in</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="15519218-7912-46fc-9b24-30f97f386562">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Filter/Disabled/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="038825fc-9a1f-4b8f-8ff2-3a739d0c3ccc">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Filter/Y</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="1276bc43-d42e-4ea9-ba01-a6c9160f49da">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Saturation/Enabled/In1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="128ec077-44ad-4e39-8339-3e0703a678c9">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/I Gain/Internal Parameters/Integral Gain</blockPath>
+      <parameterName>OutMax</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="971ecf21-287e-433c-b0ce-6a900584c893"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="12496809-29e2-449e-9ad8-3cb4f2884abc">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Filter ICs/Disabled/D0</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="ea0335af-b980-4e03-90ed-468d979e29a4">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Filter ICs/Disabled/Signal Specification</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="4a8b1686-754c-4233-8563-33aae80d69be">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Filter ICs/Disabled/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="d4dff0b0-71db-44f7-8ff7-831233bd6835">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Filter ICs/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="7b691e41-966a-445f-807b-5e86982bedfd">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Reset Signal/Disabled/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="7b81f0b3-75e1-41b8-9a88-fd270bd955ff">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/I Gain/I Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="13a6b89e-7584-4f57-b9c6-2f62aaac2451">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/I Gain/Internal Parameters/I Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="1b8abac0-0454-44d9-85be-d69ba5bb23f4">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/I Gain/Internal Parameters/Integral Gain</blockPath>
+      <parameterName>ParamMin</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="2ddeeeb9-3925-4a84-a4e4-4ca16b2355ed"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="6950ffc4-d7c2-4ea1-8a43-9f73ebe98b98">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/I Gain/Internal Parameters/Integral Gain</blockPath>
+      <parameterName>ParamMax</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="081b859b-e49f-4e83-9eb9-33d842fbf039"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="77ccebda-a29c-4fae-ae38-52f01f97130d">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/I Gain/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="baf2cd81-e32c-4693-beff-9611080fed40">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Ideal P Gain/In1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="226da12c-4a6f-407c-bd77-bffd9ad3dbd3">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tracking Mode Sum/Tracking Mode/fromTR</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="220fadd4-24ad-4f17-bfbc-1b665b498fa3">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Integrator ICs/Internal IC/Signal Specification</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="22ad4008-c28e-4663-a9ca-47f97dd60665">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Ideal P Gain/P Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="9d03e9a0-4192-4b82-b8d4-a288585acc2b">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Ideal P Gain/Passthrough/In1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="20ad2edb-3b74-48b4-9090-4cd325bf41f0">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Ideal P Gain/Passthrough/P Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="a25aa13f-29d3-4211-9fd1-a797586123fa">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Ideal P Gain/Passthrough/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="93063515-724b-46c1-a2eb-33a0c6fef134">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Ideal P Gain/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="ccd0e84b-69be-4d21-9f9e-1be29cf185af">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Ideal P Gain Fdbk/In1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="916180d3-77d2-453c-9644-a0dc366a8806">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Ideal P Gain Fdbk/Disabled/In1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="3e91b9a7-df01-4873-8031-5dde1d937210">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Ideal P Gain Fdbk/Disabled/P Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="ce55b6df-6097-4c5a-ae39-4e7f1cf11d7d">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Ideal P Gain Fdbk/Disabled/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="1cc6819f-3d9e-4af1-9be4-037269baf6b5">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Ideal P Gain Fdbk/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="667f9d77-8d1c-455a-b9cb-30e5c1be4e80">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Integrator/U</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="4d4ec250-110a-41d4-9899-e9d7bbb9ed57">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Integrator/I0in</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="967ca1ba-f9f1-4de2-88aa-557361a6e7b5">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Integrator/Reset</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="b931af2c-c0e8-461f-97c2-c7da146b3cb7">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Saturation/Lower Limit</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="b9c39a0a-69a7-4668-bf60-d893d056f40c">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Integrator/Discrete/U</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="4ef884d8-c585-4130-b94a-bef630465cb3">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Integrator/Discrete/Reset</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="6c665153-2bd0-4c0c-85e0-86ebbad2357f">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Integrator/Discrete/I0in</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="1b23305b-bfbe-465a-afac-f98e8cfbec0d">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Integrator/Discrete/Integrator</blockPath>
+      <parameterName>OutMin</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="1c704427-9996-44db-9670-cb091766a636"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="3841193a-768f-43d0-8d92-d73ccc15b6d5">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/y</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="387ba674-a10a-48f9-a446-7cfe39a1a0f6">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Sum/P</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="388fe4ca-252c-4a73-a00c-8102664c8c2a">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Integrator/Discrete/out</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="38276d66-d208-48a8-8537-37b5cd9c5f80">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Integrator/Discrete/Integrator</blockPath>
+      <parameterName>OutMax</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="451b99a4-4c3a-445b-9ad3-eb4a9c14edbe"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="e04fb9ec-ae17-4af4-aa0e-9f1940bda7e7">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tsamp - Ngain/Passthrough/Ts</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="e08f0819-3923-4cab-b3ec-eb61c7cb693a">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Integrator/Discrete/Integrator</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="da6c4bfb-7972-4a0b-b74c-782fac980642">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Integrator/Discrete/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="7112e868-40f2-4b10-9c77-12849262bb2a">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Integrator/Discrete/state</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="a844f615-5030-4c2e-8028-79a11bb96a6b">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Integrator/state</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="289fdac3-3e1f-44b6-b23c-680c8fbfc179">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Integrator/out</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="61949db8-4a82-4459-b740-8579012764ef">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Integrator ICs/I0</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="7afe4d2c-2ae4-4b62-a0f9-9582590eb7f4">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Integrator ICs/Internal IC/I0</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="ea3ac0ab-407b-40c5-b20a-3b336e84c74f">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tracking Mode/Enabled/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="eaca926e-c28e-478a-b0df-b1da3c734177">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Integrator ICs/Internal IC/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="acf36538-cb77-4f07-9b23-130330c4efff">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Integrator ICs/Internal IC/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="67773f42-2be0-4825-9175-7714d0b42130">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Integrator ICs/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="79ded4b5-775e-487d-a357-2f00ee1ec02d">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/N Copy/N Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="d3a52e0a-2611-4cb5-a6dd-9c5df622184a">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/N Copy/Disabled wSignal Specification/N Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="f0fb37b4-2a76-4759-86e4-1ad517e9e012">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Saturation/Enabled/Upper Limit</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="f0ab6c3d-9b42-4476-bf7f-3ec04c71d078">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/N Copy/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="09b9c0d7-f65a-42b1-89b6-e39d0dd0bbc2">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/N Gain/Disabled/U</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="e20d4d13-005f-4213-9df5-ff9aab6f3f74">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/N Gain/Disabled/N Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="d16f1b99-6a2a-4771-99fb-bc66ca80eef1">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/N Gain/Disabled/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="e37a5198-526f-412d-ad2e-c9f78d1119eb">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tracking Mode/uout</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="e3ba14b5-9435-4078-b0bb-61971b763836">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/N Gain/Disabled/Signal Specification2</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="bc599259-caba-404c-8be4-3d58fd4cd9fc">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/N Gain/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="83600ec5-ddcb-4184-80ef-9c776ab7d1f9">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tracking Mode/Enabled/Kt</blockPath>
+      <parameterName>ParamMin</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="bc769e9d-7eed-4aff-86aa-d90350a9d6f5"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="83fe0e29-4e55-411d-9a55-df6a84cc553f">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/P Copy/P Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="4fc87c1c-4452-420f-a39e-ff1080c768dc">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/P Copy/Disabled/P Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="8ce3a12a-f476-497e-a444-06a6b1140362">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/P Copy/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="0a71c8dc-554b-4208-b14c-218c0a289386">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Parallel P Gain/P Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="b91eb309-f4fa-45d8-b253-c5c441aa9426">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Parallel P Gain/Internal Parameters/err</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="5807d96a-3566-4c4f-80b4-9cae4d3b29a0">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Parallel P Gain/Internal Parameters/P Gain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="2ff868b1-5fd5-4121-9032-91268cb47d7a">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Saturation Fdbk/Upper Limit</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="2f92d196-4cc9-40ee-8a5a-3d8fbb6cc8a4">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Parallel P Gain/Internal Parameters/Proportional Gain</blockPath>
+      <parameterName>ParamMax</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="bb1702df-2c14-4466-9f7f-74898b4dc64a"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="1000ded3-d093-40f9-85ec-498a350d79fb">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Parallel P Gain/Internal Parameters/Proportional Gain</blockPath>
+      <parameterName>OutMin</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="da270018-370c-4abf-842a-b895df66980d"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="dd8b9c78-46f3-4bd0-8205-c4ec1ee1f43a">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Parallel P Gain/Internal Parameters/Signal Specification</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="899a98a9-d5f2-4596-bc8f-01c14b0a1116">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Parallel P Gain/Internal Parameters/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="80828476-e9c6-4325-819e-c734a46cd35a">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Parallel P Gain/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="027eaf78-6e71-4730-9e58-799a6580656c">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Reset Signal/Reset</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="e6c5a31f-61b7-42bb-81b8-52cc86edc0e3">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Reset Signal/Disabled/Reset</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="6fa3703c-fcfa-4948-b0ca-9765b62d3e0d">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Reset Signal/Disabled/Signal Specification</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="c4826140-75ba-4a1a-81be-027f95b9e450">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/preSat Signal/feedback</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="c4aa4237-3e03-4dea-8338-5aed24aed797">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Reset Signal/Disabled/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="b69d9499-1b4f-457b-9ae2-85e3c269a44a">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Reset Signal/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="3a77db1d-521b-4baa-a0d3-bf790761f39b">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Saturation/In1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="39e3175f-f329-4c99-92e8-58e50d4ae840">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Saturation/Upper Limit</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="2c65c5f3-a047-4a28-8617-b1f2703d20e3">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Saturation/Enabled/Lower Limit</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="74ac3d8d-f7ac-42db-9bd8-84536fdd0ab9">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Saturation/Enabled/Saturation</blockPath>
+      <parameterName>OutMin</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="6150fe0d-be06-4b03-b7b4-bdfd2e4fefaa"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="1dcfda68-de2b-4d61-a30a-8d4765f23cea">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Saturation/Enabled/Saturation</blockPath>
+      <parameterName>OutMax</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="0775376d-6d6b-431d-a636-105a0d47a652"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="43ed8eb5-6124-468f-8990-d6bfe7453bbd">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Saturation/Enabled/Saturation</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="7296104c-209b-4d83-a559-357978421cb5">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Saturation/Enabled/Signal Specification</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="415f228a-3761-44f1-b43c-622583cefb83">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Saturation/Enabled/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="a4ec5dab-089c-487e-b47a-5794016ff3de">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Saturation/Enabled/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="8a71ffa5-8ab1-42d3-ac33-7ad6a4472345">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Saturation/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="a77a7184-bba7-4ab3-8dfb-2c377ca726f8">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Saturation Fdbk/In1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="5b95cf62-f62a-4510-94ac-c651dc47f163">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Saturation Fdbk/Disabled/In1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="bea53067-6550-444a-aa81-5e71f203b61a">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/preSat Signal/Forward_Path/forward</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="be494d40-fec2-4f17-b3f6-c1deebbbcec5">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Saturation Fdbk/Disabled/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="78502180-371e-42bd-b442-71e761aa6b1e">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Saturation Fdbk/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="cb047f74-3e7c-4bf7-ace4-f2bd9c5c79f0">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Sum/I</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="06ed66d0-fae1-4f28-9a47-470e1492154c">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Sum/D</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="aafe49c9-70ec-464e-9de7-04544c6a2bc9">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Sum/Sum_PI/P</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="b1c7eec9-d69e-4713-a863-ef625ed2e421">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Sum/Sum_PI/I</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="c95fe8fc-356e-46aa-aea4-ad3112154498">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Sum/Sum_PI/Sum</blockPath>
+      <parameterName>OutMin</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="e231d344-78c3-4c96-8281-d0b2f4eab461"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="81a96b2b-52db-4035-9a67-0658b1b2e9c2">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Sum/Sum_PI/Sum</blockPath>
+      <parameterName>OutMax</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="17beae25-8ce8-4a21-af41-85d3df989c4e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="d7ac5dbe-a1e7-457d-ac00-caddeabc92b8">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Sum/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="92e3524d-f761-4ade-82b3-ec8ee3e69b9f">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Sum Fdbk/fromP</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="17035d10-6388-42f3-9b17-8ba72636f27d">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Sum Fdbk/Disabled/fromP</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="2ea7568e-16aa-4f48-bffe-5eab69b84cf2">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Sum Fdbk/Disabled/fromD</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="b7ef075f-0ca8-4e09-8003-b485465f8695">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Sum Fdbk/Disabled/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="dbd73f87-91f7-4d63-b58e-1f23db3dc3d8">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Sum Fdbk/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="7e49b957-e7ec-4b7c-8ea5-59a9bbc146f6">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tracking Mode/TR</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="165803cf-7de1-4069-997b-fd78c7ddf81c">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/postSat Signal/Forward_Path/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="1642eb91-4b33-449b-b789-bedab8e57e6c">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tracking Mode/Enabled/uout</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="409a8cf0-430d-4818-9ee5-3074b62a2090">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tracking Mode/Enabled/TR</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="fe1b9613-8742-4778-b78a-a46451574209">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tracking Mode/Enabled/Kt</blockPath>
+      <parameterName>ParamMax</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="6565a90e-b5dd-494e-ad5c-cd38d4358e3e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="8733d7e6-c3ea-4a10-9d70-fd7ee371b4ad">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tracking Mode/Enabled/Kt</blockPath>
+      <parameterName>OutMin</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="17d063c2-e365-483c-acee-c9a67c6e49e3"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="7644cfe0-384e-4ddd-b171-2c593210a4f3">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tracking Mode/Enabled/Kt</blockPath>
+      <parameterName>OutMax</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="b48a82ce-e2cd-4881-b7ba-d6c97d731cbe"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="83a7b6d5-5fc6-42cf-b439-29356b0acf7b">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tracking Mode/Enabled/SumI3</blockPath>
+      <parameterName>OutMin</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="60e30ac5-d5a0-4192-8850-ad4473d3d99b"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="a18e9b4f-1ad9-49ee-b20f-e1e579d2e77c">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tracking Mode/Enabled/SumI3</blockPath>
+      <parameterName>OutMax</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="27f93b73-61ad-4356-8e56-32a88bde1634"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="54dc0b7d-2b96-4da5-b364-ad24a4d006b4">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tracking Mode/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="7fd042d1-2b6e-4a68-a0c4-0d98f37f8b15">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tracking Mode Sum/fromIgain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="25d176c5-0216-4b96-a4cc-4c1bc96373d7">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tracking Mode Sum/fromTR</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="3244f279-64e2-4cae-9c6b-bdf9e59c3b70">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tracking Mode Sum/Tracking Mode/fromIgain</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="c94ed413-215c-4de0-b951-dd602b2d3e19">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tracking Mode Sum/Tracking Mode/SumI1</blockPath>
+      <parameterName>OutMin</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="2f17639f-d5f6-4f83-8ad5-2dde6e04ca7e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="9cadd12a-1fd8-49b5-89f4-4a635f387225">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tracking Mode Sum/Tracking Mode/SumI1</blockPath>
+      <parameterName>OutMax</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="257637bc-4fa6-4c3c-a041-dac8676ace88"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="88baa9de-a2ae-46be-8315-3bc14cffd40d">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tracking Mode Sum/Tracking Mode/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="cf336120-33a6-40d4-b160-4442321785de">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tracking Mode Sum/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="b5574f3c-b59e-4673-a9bd-699891401772">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tsamp - Integral/U</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="3f854186-eec3-43a1-a497-a6453821e7fd">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tsamp - Integral/Ts</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="5f655570-6cd9-4718-a5c6-3d7802bd8c86">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tsamp - Integral/TsSignalSpecification/Ts</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="7f098c1f-ab96-4463-8ba8-89607f83d5a1">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tsamp - Integral/TsSignalSpecification/Signal Specification</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="62818dff-c890-4fab-907a-1fa12adaf9c8">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tsamp - Integral/TsSignalSpecification/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="a1b514de-a2c2-41e8-a98a-ed3f882906c4">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tsamp - Integral/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="c1fedec8-9ac6-4549-bd70-af6dfb6e5bf2">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tsamp - Ngain/U</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="6f84dacc-ca74-4e95-a291-5d14d74e9f78">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tsamp - Ngain/Ts</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="773795f4-ee32-47a2-aa47-cca601969da5">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tsamp - Ngain/Passthrough/U</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="285a3586-0095-4547-9896-17fa94c0fe00">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tsamp - Ngain/Passthrough/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="fa853d31-435a-44f9-aaa0-a14c5e71e429">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/Tsamp - Ngain/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="745fd920-83c7-421c-9d8d-50bfea4d69d1">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/postSat Signal/forward</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="e4d7775e-8881-4afe-a56e-249ec1b315bf">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/postSat Signal/Forward_Path/feedback</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="d5fefb89-bf75-4d83-82e6-f3d069df4fc0">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/postSat Signal/Forward_Path/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="5e887c1a-7ba3-47bc-884b-25bd409fbde5">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/postSat Signal/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="c533789e-c2c3-42e6-91fd-c7de35a45b74">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/preSat Signal/forward</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="cd8b4bad-719d-44f5-b97f-e888292efbcf">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/preSat Signal/Forward_Path/feedback</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="c16fef77-f342-4f18-a01a-c9f31fdc868f">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/preSat Signal/Forward_Path/Signal Specification1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="f8326851-d601-4bfe-bab7-9726898fede7">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/preSat Signal/Forward_Path/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.parametertuning.BlockParameter" uuid="cbfbe4c0-696e-4588-a5ef-f30a48ef53f5">
+      <blockPath>Enhanced_BMS/Subsystem/Discrete PID Controller/preSat Signal/Out1</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="4dec2b38-9d1a-4d6f-a7a6-c906615e74b7">
+      <expression>sqrt(Cov)/sqrt(Ts(1))</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="500bd486-2b9c-4e50-9ef6-e23a94ac445b"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="9f468456-73b8-4f8c-ba64-e7bb4f7062e1"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="954d985b-2f92-4167-a769-5087c8af8169"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="9d8c8df8-b798-4585-83a3-42db88dff496">
+      <expression>sqrt(Cov)/sqrt(Ts(1))</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="0556ae13-f198-4e88-8d6f-520d6cfa1b11"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="27c24ba0-b004-489a-a56e-056e86ad7164"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="125eefd3-cc74-4ef1-9a68-49915420bb05"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="d50ef6f7-d093-44ad-8cc2-2006ff290b73">
+      <expression>1e-2</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="fa2585bd-7df4-4cef-bf56-39672c012908"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="33d7733f-8341-45f6-9e73-2f8d2eefe533"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="9d5a81eb-7cf8-416f-bd3c-db72400e1e13"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="5f4fb8bc-4bda-45ed-a9a6-53003f33cfd5">
+      <expression>0.1</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="a49032e6-32e3-484e-ab14-9c8d212fd654"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="bb5f0d16-d239-4746-bd97-07d38055069e"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="b8ac3ab6-28d5-4804-baaf-f6bcd3ff1a34"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="71aa4891-cb39-4a2a-ba15-3321693cf178">
+      <expression>sqrt(Cov)/sqrt(Ts(1))</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="ff40c0d3-8d92-49c8-987e-6d2730ce30cc"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="692914d1-7d82-47b7-b05b-9805cebf3cf4"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="93ec5173-8978-4ace-8172-30992edaede9"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="f1dc18cc-944d-48de-b34c-39c117cf5b58">
+      <expression>Ts</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="9f3abcbf-2160-4250-9ef6-ce69888e6ee7"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="125eefd3-cc74-4ef1-9a68-49915420bb05"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="b48a82ce-e2cd-4881-b7ba-d6c97d731cbe">
+      <expression>KtOutMax</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="7644cfe0-384e-4ddd-b171-2c593210a4f3"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="3e7dbe8e-5f75-4c7f-8f9f-d94684497095"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="b4da72c4-414c-4cf0-8c5d-d91fa335f60a">
+      <expression>Ts</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="64f0ec47-0e5e-4886-af29-69d308d02864"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="692914d1-7d82-47b7-b05b-9805cebf3cf4"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="721a84bd-6fad-428f-b9ef-48fe02062635">
+      <expression>Ts</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="eec50b6b-1e5e-4a2b-8a2d-6fff789f9ae3"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="9f468456-73b8-4f8c-ba64-e7bb4f7062e1"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="0775376d-6d6b-431d-a636-105a0d47a652">
+      <expression>SaturationOutMax</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="1dcfda68-de2b-4d61-a30a-8d4765f23cea"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="e62786c5-b136-4d7c-b06b-1153b9f86e33"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="c7c2bc70-8c0e-4e4a-bd1b-7ec5efa1ecab">
+      <expression>1</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="a66d8eab-e471-430b-b741-4b6f429daf9a"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e">
+      <expression>SampleTime</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="cd3c53b1-dd8f-427d-bf10-47896aaf0b4e"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="cd5c390e-f206-4dd2-9357-9c8f0691ece9"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="0d59d848-5b03-421d-91ae-dd525a340a6b"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="ad35c197-7b5b-44f3-8b5b-5f98f43db6cb"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="fdc623cb-ff2a-4838-9ff5-1bd7881c48b2"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="ababd41d-5e6f-4ae3-bc57-df4207223299"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="eb0ca488-32fd-4a13-88f9-810ceff12513"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="ab565383-605e-45f4-9b4e-1b55f0b99c48"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="6b9c1b3e-8c4d-4ec8-b6ad-1e33a1e54e32"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="6b425131-bbe3-43a2-b5ea-efc6234b5d31"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="9e9a8faa-4bdc-4f2b-a6cd-f48c6a6ccf4d"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="9eaa5385-3cf3-45b0-9105-d276c1245af5"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="fc508a61-0f78-4297-bec0-046857c0ae36"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="bc2c3b50-c994-4ebd-95e5-d6b657004850"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="ccd0e84b-69be-4d21-9f9e-1be29cf185af"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="cc3fe64e-9312-4f14-a5eb-7ef01aa090e1"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="c061df21-b220-491e-bb6e-8678da6c11e9"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="c0048312-4e69-472b-9f48-5c0afc1e5248"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="c0160b19-b666-418e-9940-c34c86a9426d"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="e6061105-b52b-48a5-bfff-4a949b3aedbb"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="20ad2edb-3b74-48b4-9090-4cd325bf41f0"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="a031ba54-5f3f-46fe-968e-f841715051ad"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="a0f5c539-ac99-4fa5-91b4-afe0a808f140"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="a0dd0637-96af-40e2-852d-d7e2c9873b7b"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="60483818-00ee-4ce1-9cf2-d3471ae190e3"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="20981cd3-390b-4893-b716-4407cadbbca8"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="20ec0036-f4dc-4df9-8ef9-33753f782725"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="2702f04a-3ba3-47a8-80de-714b0bb3d41f"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="27b2e53b-ffe6-43a8-b7b4-f6a0223669da"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="27b73d47-aab7-4c6d-8336-85db27c55b8a"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="3708001d-ca69-4776-b58e-f794838467f7"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="375234d1-c5ab-4626-82ff-ef5cbd96904c"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="77ccebda-a29c-4fae-ae38-52f01f97130d"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="f7c60268-5688-484a-b2dd-bd35c71f8df0"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="f71ee4aa-09f0-497b-9d20-e03553874f1b"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="7967ce31-9a58-4a94-ba64-b8aac352e629"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="f9d11b04-32a7-4c3d-b96e-888d2e76429c"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="392801b6-175e-4ac9-ac39-3471c921e920"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="242aaacf-bd99-4c42-ae01-4b6305af7543"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="e44408ec-52b2-487e-bef7-7daa118c9146"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="efb6c0b5-38e6-47f5-ab2d-9b1f24c65c24"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="af90b962-64c8-4ca4-979c-bbad3ffcffef"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="f51bea9b-581f-4b65-a6ec-7b23a906a2b9"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="b5b4ed95-fef6-49ee-a631-2c973b0944f1"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="7e2acea0-3751-421d-91f5-8411fd627a46"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="d0f5daa8-d934-4ee6-8755-cc8098535505"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="10c72c8a-b0ba-4792-a785-7c9e2a862d9e"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="06247b50-a2b0-4bfb-a663-4ccdabc05ebc"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="b8516b26-35d3-4e57-91a1-b1d9bcbe19a8"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="3277de3b-8f2f-471f-99ee-13070717f1b8"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="b2c22152-8801-416e-9cf3-1c05ba81b1f9"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="234c8566-0a09-4524-b141-b881c10eaf67"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="a3250a7e-8b09-48d4-acc0-aad361ef3454"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="85a0d8a7-881f-44d0-a448-cf81ee9e0244"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="1c8b2623-014b-4108-98a4-e50eb87781a9"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="1c7dbd99-f929-48fd-84e4-a08c04d7649c"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="dced3433-6589-4438-9000-c752d345207a"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="dcabc402-44cc-44b9-ba47-7221b40919bd"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="d6bb258c-e588-4cac-85dd-32793f8476d0"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="e8958e1a-b5ac-4873-a5b8-ad76ab452c01"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="15519218-7912-46fc-9b24-30f97f386562"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="038825fc-9a1f-4b8f-8ff2-3a739d0c3ccc"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="12496809-29e2-449e-9ad8-3cb4f2884abc"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="ea0335af-b980-4e03-90ed-468d979e29a4"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="4a8b1686-754c-4233-8563-33aae80d69be"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="d4dff0b0-71db-44f7-8ff7-831233bd6835"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="7b691e41-966a-445f-807b-5e86982bedfd"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="7b81f0b3-75e1-41b8-9a88-fd270bd955ff"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="93063515-724b-46c1-a2eb-33a0c6fef134"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="13a6b89e-7584-4f57-b9c6-2f62aaac2451"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="ee8245a4-a056-4651-8efc-7e41c49d4936"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="ee72f198-751a-4985-bce3-9c14c5be8fe0"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="ffc67bd9-7d8e-41d5-9b5a-7cea6f888bf6"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="baf2cd81-e32c-4693-beff-9611080fed40"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="a25aa13f-29d3-4211-9fd1-a797586123fa"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="226da12c-4a6f-407c-bd77-bffd9ad3dbd3"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="220fadd4-24ad-4f17-bfbc-1b665b498fa3"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="22ad4008-c28e-4663-a9ca-47f97dd60665"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="9d03e9a0-4192-4b82-b8d4-a288585acc2b"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="916180d3-77d2-453c-9644-a0dc366a8806"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="3e91b9a7-df01-4873-8031-5dde1d937210"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="ce55b6df-6097-4c5a-ae39-4e7f1cf11d7d"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="1cc6819f-3d9e-4af1-9be4-037269baf6b5"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="667f9d77-8d1c-455a-b9cb-30e5c1be4e80"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="4d4ec250-110a-41d4-9899-e9d7bbb9ed57"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="967ca1ba-f9f1-4de2-88aa-557361a6e7b5"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="b931af2c-c0e8-461f-97c2-c7da146b3cb7"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="b9c39a0a-69a7-4668-bf60-d893d056f40c"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="4ef884d8-c585-4130-b94a-bef630465cb3"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="6c665153-2bd0-4c0c-85e0-86ebbad2357f"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="e04fb9ec-ae17-4af4-aa0e-9f1940bda7e7"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="e08f0819-3923-4cab-b3ec-eb61c7cb693a"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="da6c4bfb-7972-4a0b-b74c-782fac980642"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="3841193a-768f-43d0-8d92-d73ccc15b6d5"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="387ba674-a10a-48f9-a446-7cfe39a1a0f6"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="388fe4ca-252c-4a73-a00c-8102664c8c2a"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="7112e868-40f2-4b10-9c77-12849262bb2a"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="a844f615-5030-4c2e-8028-79a11bb96a6b"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="289fdac3-3e1f-44b6-b23c-680c8fbfc179"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="61949db8-4a82-4459-b740-8579012764ef"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="7afe4d2c-2ae4-4b62-a0f9-9582590eb7f4"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="ea3ac0ab-407b-40c5-b20a-3b336e84c74f"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="eaca926e-c28e-478a-b0df-b1da3c734177"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="acf36538-cb77-4f07-9b23-130330c4efff"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="67773f42-2be0-4825-9175-7714d0b42130"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="79ded4b5-775e-487d-a357-2f00ee1ec02d"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="d3a52e0a-2611-4cb5-a6dd-9c5df622184a"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="f0fb37b4-2a76-4759-86e4-1ad517e9e012"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="f0ab6c3d-9b42-4476-bf7f-3ec04c71d078"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="09b9c0d7-f65a-42b1-89b6-e39d0dd0bbc2"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="e20d4d13-005f-4213-9df5-ff9aab6f3f74"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="d16f1b99-6a2a-4771-99fb-bc66ca80eef1"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="e37a5198-526f-412d-ad2e-c9f78d1119eb"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="e3ba14b5-9435-4078-b0bb-61971b763836"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="bc599259-caba-404c-8be4-3d58fd4cd9fc"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="83fe0e29-4e55-411d-9a55-df6a84cc553f"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="4fc87c1c-4452-420f-a39e-ff1080c768dc"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="8ce3a12a-f476-497e-a444-06a6b1140362"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="0a71c8dc-554b-4208-b14c-218c0a289386"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="b91eb309-f4fa-45d8-b253-c5c441aa9426"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="5807d96a-3566-4c4f-80b4-9cae4d3b29a0"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="dd8b9c78-46f3-4bd0-8205-c4ec1ee1f43a"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="899a98a9-d5f2-4596-bc8f-01c14b0a1116"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="80828476-e9c6-4325-819e-c734a46cd35a"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="027eaf78-6e71-4730-9e58-799a6580656c"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="e6c5a31f-61b7-42bb-81b8-52cc86edc0e3"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="6fa3703c-fcfa-4948-b0ca-9765b62d3e0d"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="c4826140-75ba-4a1a-81be-027f95b9e450"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="c4aa4237-3e03-4dea-8338-5aed24aed797"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="b69d9499-1b4f-457b-9ae2-85e3c269a44a"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="3a77db1d-521b-4baa-a0d3-bf790761f39b"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="39e3175f-f329-4c99-92e8-58e50d4ae840"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="1276bc43-d42e-4ea9-ba01-a6c9160f49da"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="2c65c5f3-a047-4a28-8617-b1f2703d20e3"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="43ed8eb5-6124-468f-8990-d6bfe7453bbd"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="7296104c-209b-4d83-a559-357978421cb5"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="415f228a-3761-44f1-b43c-622583cefb83"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="a4ec5dab-089c-487e-b47a-5794016ff3de"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="8a71ffa5-8ab1-42d3-ac33-7ad6a4472345"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="a77a7184-bba7-4ab3-8dfb-2c377ca726f8"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="2ff868b1-5fd5-4121-9032-91268cb47d7a"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="5b95cf62-f62a-4510-94ac-c651dc47f163"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="bea53067-6550-444a-aa81-5e71f203b61a"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="be494d40-fec2-4f17-b3f6-c1deebbbcec5"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="78502180-371e-42bd-b442-71e761aa6b1e"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="cb047f74-3e7c-4bf7-ace4-f2bd9c5c79f0"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="06ed66d0-fae1-4f28-9a47-470e1492154c"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="aafe49c9-70ec-464e-9de7-04544c6a2bc9"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="b1c7eec9-d69e-4713-a863-ef625ed2e421"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="d7ac5dbe-a1e7-457d-ac00-caddeabc92b8"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="92e3524d-f761-4ade-82b3-ec8ee3e69b9f"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="17035d10-6388-42f3-9b17-8ba72636f27d"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="2ea7568e-16aa-4f48-bffe-5eab69b84cf2"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="b7ef075f-0ca8-4e09-8003-b485465f8695"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="dbd73f87-91f7-4d63-b58e-1f23db3dc3d8"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="7e49b957-e7ec-4b7c-8ea5-59a9bbc146f6"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="165803cf-7de1-4069-997b-fd78c7ddf81c"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="1642eb91-4b33-449b-b789-bedab8e57e6c"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="409a8cf0-430d-4818-9ee5-3074b62a2090"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="54dc0b7d-2b96-4da5-b364-ad24a4d006b4"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="7fd042d1-2b6e-4a68-a0c4-0d98f37f8b15"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="25d176c5-0216-4b96-a4cc-4c1bc96373d7"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="3244f279-64e2-4cae-9c6b-bdf9e59c3b70"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="88baa9de-a2ae-46be-8315-3bc14cffd40d"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="cf336120-33a6-40d4-b160-4442321785de"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="b5574f3c-b59e-4673-a9bd-699891401772"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="3f854186-eec3-43a1-a497-a6453821e7fd"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="5f655570-6cd9-4718-a5c6-3d7802bd8c86"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="7f098c1f-ab96-4463-8ba8-89607f83d5a1"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="62818dff-c890-4fab-907a-1fa12adaf9c8"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="a1b514de-a2c2-41e8-a98a-ed3f882906c4"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="c1fedec8-9ac6-4549-bd70-af6dfb6e5bf2"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="6f84dacc-ca74-4e95-a291-5d14d74e9f78"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="773795f4-ee32-47a2-aa47-cca601969da5"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="285a3586-0095-4547-9896-17fa94c0fe00"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="fa853d31-435a-44f9-aaa0-a14c5e71e429"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="745fd920-83c7-421c-9d8d-50bfea4d69d1"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="e4d7775e-8881-4afe-a56e-249ec1b315bf"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="d5fefb89-bf75-4d83-82e6-f3d069df4fc0"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="5e887c1a-7ba3-47bc-884b-25bd409fbde5"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="c533789e-c2c3-42e6-91fd-c7de35a45b74"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="cd8b4bad-719d-44f5-b97f-e888292efbcf"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="c16fef77-f342-4f18-a01a-c9f31fdc868f"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="f8326851-d601-4bfe-bab7-9726898fede7"/>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="cbfbe4c0-696e-4588-a5ef-f30a48ef53f5"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="fc94fa15-cb4f-4560-8fb7-c1ef9e7cb848"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="4472d80a-ad32-4f0f-af5d-adee1024fd5c">
+      <expression>[]</expression>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="79eb0ff6-4009-4d3f-8d0e-c28fb2320e0c"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="116eea8f-f2ab-4aea-94cd-43b7d9c5c4ae"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="41020562-f604-46e7-9098-22820d3bcb43"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="c882e3e1-ecf0-4393-a44d-a91e4289fb18"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="2a5eadc9-90f6-4ee8-9747-3097f8de756a"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="7abb885d-857d-403f-bfea-be66e79c7533"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="7a0d2a19-cd48-43d5-8634-bfa710b99855"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="637b7919-90bd-499b-9d48-58e3775ce295"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="a73eb1c0-d1f8-4a3e-8964-a5e58fa57ac8"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="f058bab0-5893-4530-a216-9add370e35aa"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="b0f20461-70eb-45a0-8252-ce647c0518dc"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="6e78bb21-2a2b-4d8b-a677-5315ad0d4019"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="9783b08b-4f00-4518-b6dd-c5256f4df737"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="d730084f-d88d-4e10-bcd7-dbbebbfcbf8c"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="1671c6d5-684a-4ade-9268-06ca78157a77"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="7877d2cd-8f88-4581-9ace-075fdca7f692"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="31c58448-43f4-4b4a-8d31-35385f5bd1d3"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="9bb529a8-a7b6-495b-8c52-f09640f049e1"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="1043341f-f672-4490-b4f6-6d181695c722"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="0cdc1447-29cf-4f87-a73b-9fb190aa30d4"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="c3354849-aec9-4c7b-a840-36589b77f2d3"/>
+      <users type="slsa.mm.parametertuning.VariableDefinition" uuid="5ee0ea9e-a613-4de5-bfd8-e821dfcad7a4"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="2ddeeeb9-3925-4a84-a4e4-4ca16b2355ed">
+      <expression>IParamMin</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="1b8abac0-0454-44d9-85be-d69ba5bb23f4"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="b64e9c3e-71b0-4828-ab0f-d6f1ffe27a31"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="081b859b-e49f-4e83-9eb9-33d842fbf039">
+      <expression>IParamMax</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="6950ffc4-d7c2-4ea1-8a43-9f73ebe98b98"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="80973b7e-7bbb-4689-b06f-83542fe541dc"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="4caf405c-2f42-4c4b-b0a6-f63b2b9d1218">
+      <expression>IOutMin</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="1f0db738-f7cb-4a5d-8860-9aaffe836386"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="b42e8090-78f1-4274-8c1f-b0ee4c8abbff"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="17d063c2-e365-483c-acee-c9a67c6e49e3">
+      <expression>KtOutMin</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="8733d7e6-c3ea-4a10-9d70-fd7ee371b4ad"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="13bafc31-f915-4113-89d3-7a2c4c1219cd"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="17beae25-8ce8-4a21-af41-85d3df989c4e">
+      <expression>SumOutMax</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="81a96b2b-52db-4035-9a67-0658b1b2e9c2"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="23d975c4-510f-4f20-877d-4e00a7aa0c27"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="971ecf21-287e-433c-b0ce-6a900584c893">
+      <expression>IOutMax</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="128ec077-44ad-4e39-8339-3e0703a678c9"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="c4260f64-0577-42f6-86c6-7ad8d9cbf9fc"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="1c704427-9996-44db-9670-cb091766a636">
+      <expression>IntegratorOutMin</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="1b23305b-bfbe-465a-afac-f98e8cfbec0d"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="218eab78-bee6-4328-9bbc-6030d83a89e2"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="451b99a4-4c3a-445b-9ad3-eb4a9c14edbe">
+      <expression>IntegratorOutMax</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="38276d66-d208-48a8-8537-37b5cd9c5f80"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="44fe32fd-05fa-477c-a138-107aff68041f"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="fe22bea2-cce4-42c3-a365-05bac7455bff">
+      <expression>PParamMin</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="fd44a6d9-df9a-4797-83a6-429b80626d57"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="0bcf4c9d-c119-458d-a92b-202c046f1bb0"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="bb1702df-2c14-4466-9f7f-74898b4dc64a">
+      <expression>PParamMax</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="2f92d196-4cc9-40ee-8a5a-3d8fbb6cc8a4"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="c5010981-44c3-4dfb-8c72-a625635d4b83"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="da270018-370c-4abf-842a-b895df66980d">
+      <expression>POutMin</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="1000ded3-d093-40f9-85ec-498a350d79fb"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="9804e7b2-d144-447f-ac0e-831a2c3e6009"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="60e30ac5-d5a0-4192-8850-ad4473d3d99b">
+      <expression>SumI3OutMin</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="83a7b6d5-5fc6-42cf-b439-29356b0acf7b"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="0ad6785f-1962-4644-baed-f0b1d05ff8e6"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="2092a20f-410f-4246-827d-0a53dd27a8b5">
+      <expression>POutMax</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="1fe31b9d-7986-4661-b0ce-6a2f4a706fb8"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="22bc898d-30bd-43bd-ba4b-38a440c61b3a"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="6150fe0d-be06-4b03-b7b4-bdfd2e4fefaa">
+      <expression>SaturationOutMin</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="74ac3d8d-f7ac-42db-9bd8-84536fdd0ab9"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="6e4e02dd-172b-458e-8dda-37655e7b08da"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="e231d344-78c3-4c96-8281-d0b2f4eab461">
+      <expression>SumOutMin</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="c95fe8fc-356e-46aa-aea4-ad3112154498"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="a77e9ce0-21da-470d-a209-d2c1ad398c7e"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="bc769e9d-7eed-4aff-86aa-d90350a9d6f5">
+      <expression>KtParamMin</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="83600ec5-ddcb-4184-80ef-9c776ab7d1f9"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="c0087da3-c2ae-450c-a1b9-6df40f650523"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="257637bc-4fa6-4c3c-a041-dac8676ace88">
+      <expression>SumI1OutMax</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="9cadd12a-1fd8-49b5-89f4-4a635f387225"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="2eddbc2a-7570-4c14-a41e-9a0d116f2d23"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="6565a90e-b5dd-494e-ad5c-cd38d4358e3e">
+      <expression>KtParamMax</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="fe1b9613-8742-4778-b78a-a46451574209"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="75489fd4-d144-4351-a7f7-a3367ebebecf"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="27f93b73-61ad-4356-8e56-32a88bde1634">
+      <expression>SumI3OutMax</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="a18e9b4f-1ad9-49ee-b20f-e1e579d2e77c"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="001e4e89-4f9a-49f6-801a-7da9b82d527d"/>
+    </expressions>
+    <expressions type="slsa.mm.parametertuning.Expression" uuid="2f17639f-d5f6-4f83-8ad5-2dde6e04ca7e">
+      <expression>SumI1OutMin</expression>
+      <users type="slsa.mm.parametertuning.BlockParameter" uuid="c94ed413-215c-4de0-b951-dd602b2d3e19"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="5a1d8f21-4d76-4b89-9d9a-24581324a5d5"/>
+    </expressions>
+    <name>Enhanced_BMS</name>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="7abb885d-857d-403f-bfea-be66e79c7533">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="a77e9ce0-21da-470d-a209-d2c1ad398c7e"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4472d80a-ad32-4f0f-af5d-adee1024fd5c"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="7a0d2a19-cd48-43d5-8634-bfa710b99855">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="c4260f64-0577-42f6-86c6-7ad8d9cbf9fc"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4472d80a-ad32-4f0f-af5d-adee1024fd5c"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="fa2585bd-7df4-4cef-bf56-39672c012908">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="93ec5173-8978-4ace-8172-30992edaede9"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="d50ef6f7-d093-44ad-8cc2-2006ff290b73"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="a49032e6-32e3-484e-ab14-9c8d212fd654">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="692914d1-7d82-47b7-b05b-9805cebf3cf4"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="5f4fb8bc-4bda-45ed-a9a6-53003f33cfd5"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="bb5f0d16-d239-4746-bd97-07d38055069e">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="125eefd3-cc74-4ef1-9a68-49915420bb05"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="5f4fb8bc-4bda-45ed-a9a6-53003f33cfd5"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="33d7733f-8341-45f6-9e73-2f8d2eefe533">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="27c24ba0-b004-489a-a56e-056e86ad7164"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="d50ef6f7-d093-44ad-8cc2-2006ff290b73"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="9d5a81eb-7cf8-416f-bd3c-db72400e1e13">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="954d985b-2f92-4167-a769-5087c8af8169"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="d50ef6f7-d093-44ad-8cc2-2006ff290b73"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="7877d2cd-8f88-4581-9ace-075fdca7f692">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="23d975c4-510f-4f20-877d-4e00a7aa0c27"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4472d80a-ad32-4f0f-af5d-adee1024fd5c"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="b8ac3ab6-28d5-4804-baaf-f6bcd3ff1a34">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="9f468456-73b8-4f8c-ba64-e7bb4f7062e1"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="5f4fb8bc-4bda-45ed-a9a6-53003f33cfd5"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="a66d8eab-e471-430b-b741-4b6f429daf9a">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="fc94fa15-cb4f-4560-8fb7-c1ef9e7cb848"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="c7c2bc70-8c0e-4e4a-bd1b-7ec5efa1ecab"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="41020562-f604-46e7-9098-22820d3bcb43">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="b64e9c3e-71b0-4828-ab0f-d6f1ffe27a31"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4472d80a-ad32-4f0f-af5d-adee1024fd5c"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="116eea8f-f2ab-4aea-94cd-43b7d9c5c4ae">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="80973b7e-7bbb-4689-b06f-83542fe541dc"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4472d80a-ad32-4f0f-af5d-adee1024fd5c"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="c882e3e1-ecf0-4393-a44d-a91e4289fb18">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="b42e8090-78f1-4274-8c1f-b0ee4c8abbff"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4472d80a-ad32-4f0f-af5d-adee1024fd5c"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="637b7919-90bd-499b-9d48-58e3775ce295">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="218eab78-bee6-4328-9bbc-6030d83a89e2"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4472d80a-ad32-4f0f-af5d-adee1024fd5c"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="a73eb1c0-d1f8-4a3e-8964-a5e58fa57ac8">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="44fe32fd-05fa-477c-a138-107aff68041f"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4472d80a-ad32-4f0f-af5d-adee1024fd5c"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="2a5eadc9-90f6-4ee8-9747-3097f8de756a">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="0bcf4c9d-c119-458d-a92b-202c046f1bb0"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4472d80a-ad32-4f0f-af5d-adee1024fd5c"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="79eb0ff6-4009-4d3f-8d0e-c28fb2320e0c">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="c5010981-44c3-4dfb-8c72-a625635d4b83"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4472d80a-ad32-4f0f-af5d-adee1024fd5c"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="f058bab0-5893-4530-a216-9add370e35aa">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="13bafc31-f915-4113-89d3-7a2c4c1219cd"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4472d80a-ad32-4f0f-af5d-adee1024fd5c"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="b0f20461-70eb-45a0-8252-ce647c0518dc">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="9804e7b2-d144-447f-ac0e-831a2c3e6009"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4472d80a-ad32-4f0f-af5d-adee1024fd5c"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="6e78bb21-2a2b-4d8b-a677-5315ad0d4019">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="22bc898d-30bd-43bd-ba4b-38a440c61b3a"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4472d80a-ad32-4f0f-af5d-adee1024fd5c"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="9783b08b-4f00-4518-b6dd-c5256f4df737">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="c0087da3-c2ae-450c-a1b9-6df40f650523"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4472d80a-ad32-4f0f-af5d-adee1024fd5c"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="d730084f-d88d-4e10-bcd7-dbbebbfcbf8c">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="6e4e02dd-172b-458e-8dda-37655e7b08da"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4472d80a-ad32-4f0f-af5d-adee1024fd5c"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="1671c6d5-684a-4ade-9268-06ca78157a77">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="e62786c5-b136-4d7c-b06b-1153b9f86e33"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4472d80a-ad32-4f0f-af5d-adee1024fd5c"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="31c58448-43f4-4b4a-8d31-35385f5bd1d3">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="75489fd4-d144-4351-a7f7-a3367ebebecf"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4472d80a-ad32-4f0f-af5d-adee1024fd5c"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="9bb529a8-a7b6-495b-8c52-f09640f049e1">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="3e7dbe8e-5f75-4c7f-8f9f-d94684497095"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4472d80a-ad32-4f0f-af5d-adee1024fd5c"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="1043341f-f672-4490-b4f6-6d181695c722">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="0ad6785f-1962-4644-baed-f0b1d05ff8e6"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4472d80a-ad32-4f0f-af5d-adee1024fd5c"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="0cdc1447-29cf-4f87-a73b-9fb190aa30d4">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="001e4e89-4f9a-49f6-801a-7da9b82d527d"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4472d80a-ad32-4f0f-af5d-adee1024fd5c"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="c3354849-aec9-4c7b-a840-36589b77f2d3">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="5a1d8f21-4d76-4b89-9d9a-24581324a5d5"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4472d80a-ad32-4f0f-af5d-adee1024fd5c"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.parametertuning.VariableDefinition" uuid="5ee0ea9e-a613-4de5-bfd8-e821dfcad7a4">
+      <variable type="slsa.mm.parametertuning.Variable" uuid="2eddbc2a-7570-4c14-a41e-9a0d116f2d23"/>
+      <expression type="slsa.mm.parametertuning.Expression" uuid="4472d80a-ad32-4f0f-af5d-adee1024fd5c"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </variableDefinitions>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="69542148-d91e-43c7-a25c-3b0107ccad37">
+      <name>CC</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="81a2be03-80a6-42fe-9786-cbe59a275bdd"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="692914d1-7d82-47b7-b05b-9805cebf3cf4">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="a49032e6-32e3-484e-ab14-9c8d212fd654"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="b4da72c4-414c-4cf0-8c5d-d91fa335f60a"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="71aa4891-cb39-4a2a-ba15-3321693cf178"/>
+      <name>Ts</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="44693b32-cca0-409e-a2be-fd8fae708fe4"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="fc94fa15-cb4f-4560-8fb7-c1ef9e7cb848">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="a66d8eab-e471-430b-b741-4b6f429daf9a"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="4bbbf646-86c5-4c3a-b9d4-d15dafd1036e"/>
+      <name>SampleTime</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="9cdd8ac6-98b4-4c96-8453-8719dc4f6fe7"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="7ca561d6-3ccd-44cd-8301-ff371f510a1f">
+      <name>Cell_Max_Voltage</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="81a2be03-80a6-42fe-9786-cbe59a275bdd"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="a77e9ce0-21da-470d-a209-d2c1ad398c7e">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="7abb885d-857d-403f-bfea-be66e79c7533"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="e231d344-78c3-4c96-8281-d0b2f4eab461"/>
+      <name>SumOutMin</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="9cdd8ac6-98b4-4c96-8453-8719dc4f6fe7"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="27c24ba0-b004-489a-a56e-056e86ad7164">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="33d7733f-8341-45f6-9e73-2f8d2eefe533"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="9d8c8df8-b798-4585-83a3-42db88dff496"/>
+      <name>Cov</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="88020d90-a5c4-410f-b150-416a68338981"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="f76935b6-32ab-4e30-92cd-ac0a4ae7380d">
+      <name>I_disch</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="81a2be03-80a6-42fe-9786-cbe59a275bdd"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="13bafc31-f915-4113-89d3-7a2c4c1219cd">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="f058bab0-5893-4530-a216-9add370e35aa"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="17d063c2-e365-483c-acee-c9a67c6e49e3"/>
+      <name>KtOutMin</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="9cdd8ac6-98b4-4c96-8453-8719dc4f6fe7"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="93ec5173-8978-4ace-8172-30992edaede9">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="fa2585bd-7df4-4cef-bf56-39672c012908"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="71aa4891-cb39-4a2a-ba15-3321693cf178"/>
+      <name>Cov</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="44693b32-cca0-409e-a2be-fd8fae708fe4"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="125eefd3-cc74-4ef1-9a68-49915420bb05">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="bb5f0d16-d239-4746-bd97-07d38055069e"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="f1dc18cc-944d-48de-b34c-39c117cf5b58"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="9d8c8df8-b798-4585-83a3-42db88dff496"/>
+      <name>Ts</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="88020d90-a5c4-410f-b150-416a68338981"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="954d985b-2f92-4167-a769-5087c8af8169">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="9d5a81eb-7cf8-416f-bd3c-db72400e1e13"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="4dec2b38-9d1a-4d6f-a7a6-c906615e74b7"/>
+      <name>Cov</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="dcce449e-bea0-41e4-8ef0-99a78032b8b9"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="9f468456-73b8-4f8c-ba64-e7bb4f7062e1">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="b8ac3ab6-28d5-4804-baaf-f6bcd3ff1a34"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="721a84bd-6fad-428f-b9ef-48fe02062635"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="4dec2b38-9d1a-4d6f-a7a6-c906615e74b7"/>
+      <name>Ts</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="dcce449e-bea0-41e4-8ef0-99a78032b8b9"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="b64e9c3e-71b0-4828-ab0f-d6f1ffe27a31">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="41020562-f604-46e7-9098-22820d3bcb43"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="2ddeeeb9-3925-4a84-a4e4-4ca16b2355ed"/>
+      <name>IParamMin</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="9cdd8ac6-98b4-4c96-8453-8719dc4f6fe7"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="001e4e89-4f9a-49f6-801a-7da9b82d527d">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="0cdc1447-29cf-4f87-a73b-9fb190aa30d4"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="27f93b73-61ad-4356-8e56-32a88bde1634"/>
+      <name>SumI3OutMax</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="9cdd8ac6-98b4-4c96-8453-8719dc4f6fe7"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="c0087da3-c2ae-450c-a1b9-6df40f650523">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="9783b08b-4f00-4518-b6dd-c5256f4df737"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="bc769e9d-7eed-4aff-86aa-d90350a9d6f5"/>
+      <name>KtParamMin</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="9cdd8ac6-98b4-4c96-8453-8719dc4f6fe7"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="80973b7e-7bbb-4689-b06f-83542fe541dc">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="116eea8f-f2ab-4aea-94cd-43b7d9c5c4ae"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="081b859b-e49f-4e83-9eb9-33d842fbf039"/>
+      <name>IParamMax</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="9cdd8ac6-98b4-4c96-8453-8719dc4f6fe7"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="b42e8090-78f1-4274-8c1f-b0ee4c8abbff">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="c882e3e1-ecf0-4393-a44d-a91e4289fb18"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="4caf405c-2f42-4c4b-b0a6-f63b2b9d1218"/>
+      <name>IOutMin</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="9cdd8ac6-98b4-4c96-8453-8719dc4f6fe7"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="44fe32fd-05fa-477c-a138-107aff68041f">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="a73eb1c0-d1f8-4a3e-8964-a5e58fa57ac8"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="451b99a4-4c3a-445b-9ad3-eb4a9c14edbe"/>
+      <name>IntegratorOutMax</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="9cdd8ac6-98b4-4c96-8453-8719dc4f6fe7"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="c4260f64-0577-42f6-86c6-7ad8d9cbf9fc">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="7a0d2a19-cd48-43d5-8634-bfa710b99855"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="971ecf21-287e-433c-b0ce-6a900584c893"/>
+      <name>IOutMax</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="9cdd8ac6-98b4-4c96-8453-8719dc4f6fe7"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="218eab78-bee6-4328-9bbc-6030d83a89e2">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="637b7919-90bd-499b-9d48-58e3775ce295"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="1c704427-9996-44db-9670-cb091766a636"/>
+      <name>IntegratorOutMin</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="9cdd8ac6-98b4-4c96-8453-8719dc4f6fe7"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="0bcf4c9d-c119-458d-a92b-202c046f1bb0">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="2a5eadc9-90f6-4ee8-9747-3097f8de756a"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="fe22bea2-cce4-42c3-a365-05bac7455bff"/>
+      <name>PParamMin</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="9cdd8ac6-98b4-4c96-8453-8719dc4f6fe7"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="c5010981-44c3-4dfb-8c72-a625635d4b83">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="79eb0ff6-4009-4d3f-8d0e-c28fb2320e0c"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="bb1702df-2c14-4466-9f7f-74898b4dc64a"/>
+      <name>PParamMax</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="9cdd8ac6-98b4-4c96-8453-8719dc4f6fe7"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="9804e7b2-d144-447f-ac0e-831a2c3e6009">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="b0f20461-70eb-45a0-8252-ce647c0518dc"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="da270018-370c-4abf-842a-b895df66980d"/>
+      <name>POutMin</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="9cdd8ac6-98b4-4c96-8453-8719dc4f6fe7"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="22bc898d-30bd-43bd-ba4b-38a440c61b3a">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="6e78bb21-2a2b-4d8b-a677-5315ad0d4019"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="2092a20f-410f-4246-827d-0a53dd27a8b5"/>
+      <name>POutMax</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="9cdd8ac6-98b4-4c96-8453-8719dc4f6fe7"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="2eddbc2a-7570-4c14-a41e-9a0d116f2d23">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="5ee0ea9e-a613-4de5-bfd8-e821dfcad7a4"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="257637bc-4fa6-4c3c-a041-dac8676ace88"/>
+      <name>SumI1OutMax</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="9cdd8ac6-98b4-4c96-8453-8719dc4f6fe7"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="6e4e02dd-172b-458e-8dda-37655e7b08da">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="d730084f-d88d-4e10-bcd7-dbbebbfcbf8c"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="6150fe0d-be06-4b03-b7b4-bdfd2e4fefaa"/>
+      <name>SaturationOutMin</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="9cdd8ac6-98b4-4c96-8453-8719dc4f6fe7"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="e62786c5-b136-4d7c-b06b-1153b9f86e33">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="1671c6d5-684a-4ade-9268-06ca78157a77"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="0775376d-6d6b-431d-a636-105a0d47a652"/>
+      <name>SaturationOutMax</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="9cdd8ac6-98b4-4c96-8453-8719dc4f6fe7"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="23d975c4-510f-4f20-877d-4e00a7aa0c27">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="7877d2cd-8f88-4581-9ace-075fdca7f692"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="17beae25-8ce8-4a21-af41-85d3df989c4e"/>
+      <name>SumOutMax</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="9cdd8ac6-98b4-4c96-8453-8719dc4f6fe7"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="75489fd4-d144-4351-a7f7-a3367ebebecf">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="31c58448-43f4-4b4a-8d31-35385f5bd1d3"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="6565a90e-b5dd-494e-ad5c-cd38d4358e3e"/>
+      <name>KtParamMax</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="9cdd8ac6-98b4-4c96-8453-8719dc4f6fe7"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="3e7dbe8e-5f75-4c7f-8f9f-d94684497095">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="9bb529a8-a7b6-495b-8c52-f09640f049e1"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="b48a82ce-e2cd-4881-b7ba-d6c97d731cbe"/>
+      <name>KtOutMax</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="9cdd8ac6-98b4-4c96-8453-8719dc4f6fe7"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="0ad6785f-1962-4644-baed-f0b1d05ff8e6">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="1043341f-f672-4490-b4f6-6d181695c722"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="60e30ac5-d5a0-4192-8850-ad4473d3d99b"/>
+      <name>SumI3OutMin</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="9cdd8ac6-98b4-4c96-8453-8719dc4f6fe7"/>
+    </variables>
+    <variables type="slsa.mm.parametertuning.Variable" uuid="5a1d8f21-4d76-4b89-9d9a-24581324a5d5">
+      <definition type="slsa.mm.parametertuning.VariableDefinition" uuid="c3354849-aec9-4c7b-a840-36589b77f2d3"/>
+      <expressions type="slsa.mm.parametertuning.Expression" uuid="2f17639f-d5f6-4f83-8ad5-2dde6e04ca7e"/>
+      <name>SumI1OutMin</name>
+      <workspace type="slsa.mm.parametertuning.Workspace" uuid="9cdd8ac6-98b4-4c96-8453-8719dc4f6fe7"/>
+    </variables>
+    <workspaces type="slsa.mm.parametertuning.Workspace" uuid="81a2be03-80a6-42fe-9786-cbe59a275bdd">
+      <name>Enhanced_BMS</name>
+      <type>MODEL</type>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="69542148-d91e-43c7-a25c-3b0107ccad37"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="7ca561d6-3ccd-44cd-8301-ff371f510a1f"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="f76935b6-32ab-4e30-92cd-ac0a4ae7380d"/>
+    </workspaces>
+    <workspaces type="slsa.mm.parametertuning.Workspace" uuid="9cdd8ac6-98b4-4c96-8453-8719dc4f6fe7">
+      <name>Enhanced_BMS:182</name>
+      <type>MASK</type>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="c4260f64-0577-42f6-86c6-7ad8d9cbf9fc"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="44fe32fd-05fa-477c-a138-107aff68041f"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="b42e8090-78f1-4274-8c1f-b0ee4c8abbff"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="fc94fa15-cb4f-4560-8fb7-c1ef9e7cb848"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="b64e9c3e-71b0-4828-ab0f-d6f1ffe27a31"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="001e4e89-4f9a-49f6-801a-7da9b82d527d"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="c0087da3-c2ae-450c-a1b9-6df40f650523"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="80973b7e-7bbb-4689-b06f-83542fe541dc"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="218eab78-bee6-4328-9bbc-6030d83a89e2"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="0bcf4c9d-c119-458d-a92b-202c046f1bb0"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="c5010981-44c3-4dfb-8c72-a625635d4b83"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="9804e7b2-d144-447f-ac0e-831a2c3e6009"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="22bc898d-30bd-43bd-ba4b-38a440c61b3a"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="2eddbc2a-7570-4c14-a41e-9a0d116f2d23"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="6e4e02dd-172b-458e-8dda-37655e7b08da"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="e62786c5-b136-4d7c-b06b-1153b9f86e33"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="a77e9ce0-21da-470d-a209-d2c1ad398c7e"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="23d975c4-510f-4f20-877d-4e00a7aa0c27"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="75489fd4-d144-4351-a7f7-a3367ebebecf"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="13bafc31-f915-4113-89d3-7a2c4c1219cd"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="3e7dbe8e-5f75-4c7f-8f9f-d94684497095"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="0ad6785f-1962-4644-baed-f0b1d05ff8e6"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="5a1d8f21-4d76-4b89-9d9a-24581324a5d5"/>
+    </workspaces>
+    <workspaces type="slsa.mm.parametertuning.Workspace" uuid="dcce449e-bea0-41e4-8ef0-99a78032b8b9">
+      <name>Enhanced_BMS:687</name>
+      <type>MASK</type>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="954d985b-2f92-4167-a769-5087c8af8169"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="9f468456-73b8-4f8c-ba64-e7bb4f7062e1"/>
+    </workspaces>
+    <workspaces type="slsa.mm.parametertuning.Workspace" uuid="44693b32-cca0-409e-a2be-fd8fae708fe4">
+      <name>Enhanced_BMS:441</name>
+      <type>MASK</type>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="93ec5173-8978-4ace-8172-30992edaede9"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="692914d1-7d82-47b7-b05b-9805cebf3cf4"/>
+    </workspaces>
+    <workspaces type="slsa.mm.parametertuning.Workspace" uuid="88020d90-a5c4-410f-b150-416a68338981">
+      <name>Enhanced_BMS:686</name>
+      <type>MASK</type>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="27c24ba0-b004-489a-a56e-056e86ad7164"/>
+      <variables type="slsa.mm.parametertuning.Variable" uuid="125eefd3-cc74-4ef1-9a68-49915420bb05"/>
+    </workspaces>
+  </slsa.mm.parametertuning.VariableRegistry>
+</MF0>

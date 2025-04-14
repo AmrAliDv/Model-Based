@@ -1,0 +1,2 @@
+chcp 65001
+cmd /D /c start "RapidAccelerator" /B "D:\study\First Part\Enhanced_BMS\slprj\raccel\Enhanced_BMS\Enhanced_BMS.exe" --config "C:\Users\KIMOST~1\AppData\Local\Temp\raccel_inputp79993463_07c6_44dc_8c7c_91052592a860.cfg" -server_info_file "C:\Users\Kimo Store\AppData\Local\Temp\tpp79993463_07c6_44dc_8c7c_91052592a860.info" -tgtconn_server_info_file "C:\Users\Kimo Store\AppData\Local\Temp\tgtconnp79993463_07c6_44dc_8c7c_91052592a860.info" -tgtconn_port 0 -port 0 -verbose off -w 1>"D:\study\First Part\Enhanced_BMS\slprj\raccel\Enhanced_BMS\cmdLog.txt"

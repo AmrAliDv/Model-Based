@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/slsa_mm_rtp_registry/R2023a">
+  <slsa.mm.rtpregistry.ModelMetadata type="slsa.mm.rtpregistry.ModelMetadata" uuid="2c031e80-b702-4897-b7be-c0199761d8ed">
+    <modelName>Enhanced_BMS</modelName>
+  </slsa.mm.rtpregistry.ModelMetadata>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="c23b8cbf-83b3-490b-8008-da841f4738cb">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="b0acbbed-d3bf-4c88-a2f6-9b652360da4d"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="fd9b80f2-9a78-43a8-ac36-82dba4f9037d"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.VariableId type="slsa.mm.rtpregistry.VariableId" uuid="c2c24463-3fdc-4464-af28-6d83a35be9d0">
+    <workspaceName>Enhanced_BMS</workspaceName>
+    <name>CC</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="ba04a839-41b8-4e58-87a5-8ce40496f9b6"/>
+  </slsa.mm.rtpregistry.VariableId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="ba04a839-41b8-4e58-87a5-8ce40496f9b6">
+    <id type="slsa.mm.rtpregistry.VariableId" uuid="c2c24463-3fdc-4464-af28-6d83a35be9d0"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="bb08fd19-a8c4-4f35-a466-6c83fde96f51"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="bb08fd19-a8c4-4f35-a466-6c83fde96f51">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="ba04a839-41b8-4e58-87a5-8ce40496f9b6"/>
+    <valueIndices>0</valueIndices>
+    <valueIndices>0</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.VariableId type="slsa.mm.rtpregistry.VariableId" uuid="a1233694-45c2-49a0-9edb-0dd74a7d8913">
+    <workspaceName>Enhanced_BMS</workspaceName>
+    <name>Cell_Max_Voltage</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="c1074015-51ad-491b-9248-43ff730f6b9a"/>
+  </slsa.mm.rtpregistry.VariableId>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="c1074015-51ad-491b-9248-43ff730f6b9a">
+    <id type="slsa.mm.rtpregistry.VariableId" uuid="a1233694-45c2-49a0-9edb-0dd74a7d8913"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="470ac6a8-f1c6-41a3-8a5a-6b677d7960d8"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="b7fd936a-f738-43cd-b5cc-632a0e64060f">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="7ebca2a0-af81-4d8d-a3a1-d4bf1d4b4198"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="570619a7-f34b-45c8-8bb4-408c1028237e"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="77e1293f-1460-4786-9afb-3224dc841bf8">
+    <id type="slsa.mm.rtpregistry.VariableId" uuid="d2cc844b-3c92-43cc-929a-39cfd36c6b6d"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="035ff258-d770-4f7a-8faf-989fb6d8f772"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="871e37a8-8fa9-41e9-92b6-ff6324b473b7">
+    <blockPath>Enhanced_BMS/Battery/SOC Estimator/Correction/cell1/Measurement Noise/Output</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="22d74540-ad9b-42ee-b3cc-064753492fed"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="470ac6a8-f1c6-41a3-8a5a-6b677d7960d8">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="c1074015-51ad-491b-9248-43ff730f6b9a"/>
+    <valueIndices>1</valueIndices>
+    <valueIndices>1</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.VariableId type="slsa.mm.rtpregistry.VariableId" uuid="d2cc844b-3c92-43cc-929a-39cfd36c6b6d">
+    <workspaceName>Enhanced_BMS</workspaceName>
+    <name>I_disch</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="77e1293f-1460-4786-9afb-3224dc841bf8"/>
+  </slsa.mm.rtpregistry.VariableId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="035ff258-d770-4f7a-8faf-989fb6d8f772">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="77e1293f-1460-4786-9afb-3224dc841bf8"/>
+    <valueIndices>2</valueIndices>
+    <valueIndices>2</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.Parameter type="slsa.mm.rtpregistry.Parameter" uuid="22d74540-ad9b-42ee-b3cc-064753492fed">
+    <id type="slsa.mm.rtpregistry.BlockParameterId" uuid="871e37a8-8fa9-41e9-92b6-ff6324b473b7"/>
+    <rtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="d1ce65cc-6b11-4665-97b9-9272df15b70b"/>
+  </slsa.mm.rtpregistry.Parameter>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="d1ce65cc-6b11-4665-97b9-9272df15b70b">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="22d74540-ad9b-42ee-b3cc-064753492fed"/>
+    <valueIndices>34</valueIndices>
+    <valueIndices>34</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="7ebca2a0-af81-4d8d-a3a1-d4bf1d4b4198">
+    <blockPath>Enhanced_BMS/Battery/SOC Estimator/Correction/cell2/Measurement Noise/Output</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="b7fd936a-f738-43cd-b5cc-632a0e64060f"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="570619a7-f34b-45c8-8bb4-408c1028237e">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="b7fd936a-f738-43cd-b5cc-632a0e64060f"/>
+    <valueIndices>47</valueIndices>
+    <valueIndices>47</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+  <slsa.mm.rtpregistry.BlockParameterId type="slsa.mm.rtpregistry.BlockParameterId" uuid="b0acbbed-d3bf-4c88-a2f6-9b652360da4d">
+    <blockPath>Enhanced_BMS/Battery/SOC Estimator/Correction/cell3/Measurement Noise/Output</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="c23b8cbf-83b3-490b-8008-da841f4738cb"/>
+  </slsa.mm.rtpregistry.BlockParameterId>
+  <slsa.mm.rtpregistry.RtpLocation type="slsa.mm.rtpregistry.RtpLocation" uuid="fd9b80f2-9a78-43a8-ac36-82dba4f9037d">
+    <parameter type="slsa.mm.rtpregistry.Parameter" uuid="c23b8cbf-83b3-490b-8008-da841f4738cb"/>
+    <valueIndices>60</valueIndices>
+    <valueIndices>60</valueIndices>
+  </slsa.mm.rtpregistry.RtpLocation>
+</MF0>
